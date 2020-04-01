@@ -6,7 +6,7 @@ public class par {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         int a=0;
-        System.out.println("Ingrese un numero");
+        System.out.println("Ingrese un numero"); //Aqui se ingresa el numero//
         a=leer.nextInt();
         if (a%2==0) {
             System.out.println(a+"es par");
